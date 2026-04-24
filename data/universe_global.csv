@@ -1,0 +1,58 @@
+﻿ticker,name,region,sector,asset_type,market,kuspit_status,thesis_type
+SPY,SPDR S&P 500 ETF,USA,Broad Market,ETF,NYSE Arca,yes,macro
+QQQ,Invesco QQQ Trust,USA,Technology,ETF,Nasdaq,yes,macro
+FEZ,SPDR Euro Stoxx 50 ETF,Europe,Broad Market,ETF,NYSE Arca,verify,macro
+EWJ,iShares MSCI Japan ETF,Japan,Broad Market,ETF,NYSE Arca,verify,macro
+XLK,Technology Select Sector SPDR,USA,Technology,ETF,NYSE Arca,yes,sector
+SMH,VanEck Semiconductor ETF,USA,Semiconductors,ETF,Nasdaq,verify,momentum sectorial
+XLF,Financial Select Sector SPDR,USA,Financials,ETF,NYSE Arca,yes,sector
+XLE,Energy Select Sector SPDR,USA,Energy,ETF,NYSE Arca,yes,sector
+XLV,Health Care Select Sector SPDR,USA,Healthcare,ETF,NYSE Arca,yes,sector
+XLY,Consumer Discretionary Select Sector SPDR,USA,Consumer Discretionary,ETF,NYSE Arca,yes,sector
+XLP,Consumer Staples Select Sector SPDR,USA,Consumer Staples,ETF,NYSE Arca,yes,defensiva
+XLI,Industrial Select Sector SPDR,USA,Industrials,ETF,NYSE Arca,yes,cíclica/táctica
+XLB,Materials Select Sector SPDR,USA,Materials,ETF,NYSE Arca,yes,cíclica/táctica
+XLU,Utilities Select Sector SPDR,USA,Utilities,ETF,NYSE Arca,yes,defensiva
+AAPL,Apple Inc.,USA,Technology,equity,Nasdaq,yes,momentum
+MSFT,Microsoft Corporation,USA,Technology,equity,Nasdaq,yes,quality growth
+NVDA,NVIDIA Corporation,USA,Semiconductors,equity,Nasdaq,yes,momentum sectorial
+AMD,Advanced Micro Devices Inc.,USA,Semiconductors,equity,Nasdaq,yes,momentum sectorial
+AVGO,Broadcom Inc.,USA,Semiconductors,equity,Nasdaq,yes,momentum sectorial
+TSLA,Tesla Inc.,USA,Consumer Discretionary,equity,Nasdaq,yes,momentum
+AMZN,Amazon.com Inc.,USA,Consumer Discretionary,equity,Nasdaq,yes,quality growth
+GOOGL,Alphabet Inc.,USA,Communication Services,equity,Nasdaq,yes,quality growth
+META,Meta Platforms Inc.,USA,Communication Services,equity,Nasdaq,yes,momentum
+NFLX,Netflix Inc.,USA,Communication Services,equity,Nasdaq,yes,momentum
+UBER,Uber Technologies Inc.,USA,Industrials,equity,NYSE,yes,táctica
+JPM,JPMorgan Chase & Co.,USA,Financials,equity,NYSE,yes,cíclica/táctica
+BAC,Bank of America Corporation,USA,Financials,equity,NYSE,yes,cíclica/táctica
+V,Visa Inc.,USA,Financials,equity,NYSE,yes,quality growth
+MA,Mastercard Incorporated,USA,Financials,equity,NYSE,yes,quality growth
+WMT,Walmart Inc.,USA,Consumer Staples,equity,NYSE,yes,defensiva
+COST,Costco Wholesale Corporation,USA,Consumer Staples,equity,Nasdaq,yes,defensiva
+UNH,UnitedHealth Group Inc.,USA,Healthcare,equity,NYSE,yes,defensiva
+LLY,Eli Lilly and Company,USA,Healthcare,equity,NYSE,yes,quality growth
+XOM,Exxon Mobil Corporation,USA,Energy,equity,NYSE,yes,cíclica/táctica
+CVX,Chevron Corporation,USA,Energy,equity,NYSE,yes,cíclica/táctica
+CAT,Caterpillar Inc.,USA,Industrials,equity,NYSE,yes,cíclica/táctica
+DE,Deere & Company,USA,Industrials,equity,NYSE,yes,cíclica/táctica
+ASML,ASML Holding N.V.,Europe,Semiconductors,equity,Nasdaq,verify,momentum sectorial
+SAP,SAP SE,Europe,Technology,equity,NYSE,verify,quality growth
+NVO,Novo Nordisk A/S,Europe,Healthcare,equity,NYSE,verify,quality growth
+AZN,AstraZeneca PLC,Europe,Healthcare,equity,Nasdaq,verify,defensiva
+HSBC,HSBC Holdings plc,Europe,Financials,equity,NYSE,verify,cíclica/táctica
+SHEL,Shell plc,Europe,Energy,equity,NYSE,verify,cíclica/táctica
+BP,BP p.l.c.,Europe,Energy,equity,NYSE,verify,cíclica/táctica
+TM,Toyota Motor Corporation,Japan,Consumer Discretionary,equity,NYSE,verify,cíclica/táctica
+SONY,Sony Group Corporation,Japan,Technology,equity,NYSE,verify,quality growth
+TSM,Taiwan Semiconductor Manufacturing Company,Asia,Semiconductors,equity,NYSE,verify,momentum sectorial
+BABA,Alibaba Group Holding Limited,China,Consumer Discretionary,equity,NYSE,verify,táctica
+PBR,Petróleo Brasileiro S.A.,Brazil,Energy,equity,NYSE,verify,cíclica/táctica
+VALE,Vale S.A.,Brazil,Materials,equity,NYSE,verify,cíclica/táctica
+CX,Cemex S.A.B. de C.V. ADR,Mexico,Materials,equity,NYSE,verify,cíclica/táctica
+AMX,América Móvil ADR,Mexico,Communication Services,equity,NYSE,verify,defensiva
+WALMEX.MX,Walmart de México S.A.B. de C.V.,Mexico,Consumer Staples,equity,BMV,verify,defensiva
+GFNORTEO.MX,Grupo Financiero Banorte,Mexico,Financials,equity,BMV,verify,cíclica/táctica
+CEMEXCPO.MX,Cemex CPO,Mexico,Materials,equity,BMV,verify,cíclica/táctica
+BIMBOA.MX,Grupo Bimbo,Mexico,Consumer Staples,equity,BMV,verify,defensiva
+AMXL.MX,América Móvil,Mexico,Communication Services,equity,BMV,verify,defensiva

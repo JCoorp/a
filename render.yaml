@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: scanner-global-v3-3-hardened
+    env: docker
+    plan: starter
+    autoDeploy: true
+    healthCheckPath: /health
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: RUN_SCAN_ON_STARTUP
+        value: true

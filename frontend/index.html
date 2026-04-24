@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scanner Global v3.3</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>Scanner Global v3.3</h1>
+      <p>Radar multi-fuente con consenso, calidad de dato e IA bajo demanda.</p>
+    </div>
+    <div class="actions">
+      <button id="scanBtn">Ejecutar escaneo</button>
+      <button id="refreshBtn" class="secondary">Actualizar</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="cards" id="statusCards"></section>
+
+    <section class="panel search-panel">
+      <div>
+        <h2>Búsqueda de activos</h2>
+        <p>Busca por ticker, nombre, región, sector o tesis.</p>
+      </div>
+      <div class="search-row">
+        <input id="searchInput" placeholder="Ej. NVDA, TSLA, México, Semiconductors">
+        <button id="searchBtn">Buscar</button>
+      </div>
+      <div id="assetMatches" class="asset-matches"></div>
+    </section>
+
+    <section class="layout">
+      <section class="panel table-panel">
+        <div class="panel-header">
+          <h2>Señales recientes</h2>
+          <select id="levelFilter">
+            <option value="">Todos los niveles</option>
+            <option value="3">Nivel 3</option>
+            <option value="2">Nivel 2</option>
+            <option value="1">Nivel 1</option>
+          </select>
+        </div>
+        <div id="tableWrap" class="table-wrap"></div>
+      </section>
+
+      <aside class="panel detail-panel">
+        <h2>Detalle</h2>
+        <div id="detailBox" class="detail-box muted">Selecciona una señal para ver el detalle.</div>
+      </aside>
+    </section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

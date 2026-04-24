@@ -1,0 +1,11 @@
+ticker,note
+SPY,validar alternativa SIC/SPYM en Kuspit
+QQQ,validar disponibilidad SIC
+AAPL,validar precio MXN y spread en Kuspit
+MSFT,validar precio MXN y spread en Kuspit
+NVDA,validar precio MXN y spread en Kuspit
+AMD,validar precio MXN y spread en Kuspit
+AMZN,validar precio MXN y spread en Kuspit
+TSLA,validar precio MXN y spread en Kuspit
+UBER,validar precio MXN y spread en Kuspit
+WMT,validar precio MXN y spread en Kuspit
